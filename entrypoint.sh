@@ -53,7 +53,7 @@ generate_config() {
                         "dest":3002
                     },
                     {
-                        "path":"/${WSPATH}-vmess",
+                        "path":"/${WSPATH}/vm",
                         "dest":3003
                     },
                     {
@@ -132,7 +132,7 @@ generate_config() {
             "streamSettings":{
                 "network":"ws",
                 "wsSettings":{
-                    "path":"/${WSPATH}-vmess"
+                    "path":"/${WSPATH}/vm"
                 }
             },
             "sniffing":{
